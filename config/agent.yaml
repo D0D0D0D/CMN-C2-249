@@ -1,0 +1,32 @@
+# Agent Manifest - AgentRegistry entry point
+# AgentRegistry reads every key below at ROOT level; do not nest under `agent:`.
+id: "CMN-C2-249"
+name: "Deep Research Synthesis & Evidence Report Agent"
+namespace: "cmn"
+version: "1.0.0"
+enabled: true
+category: "Cat 2"
+generation_mode: "llm"
+industry: "CMN"
+
+# Opaque compatibility metadata. Runtime tuning lives in config/config.yaml.
+base_type: "AgentBaseGraph"
+
+# Entry point - single dotted import path (module.Class).
+class: "src.graph.graph.Graph"
+
+# Security
+required_trust_level: "VERIFIED_EXTERNAL"
+
+requires:
+  secrets:
+    - LLM_API_KEY
+    - ARXIV_API_KEY
+    - PUBMED_API_KEY
+  # synthesize_node builds the default provider client (config/config.yaml
+  # llm_provider, default "anthropic") when the caller does not inject
+  # config["llm"]. Declaring the extra makes the registry fail closed at
+  # compile time instead of failing at the first synthesis call.
+  # Switching llm_provider to openai / bedrock requires the matching extra here.
+  extras:
+    - anthropic

@@ -1,0 +1,182 @@
+[
+  {
+    "source_id": "internal_kb",
+    "doc_id": "SAMPLE-INTERNAL-KB-001",
+    "title": "[SAMPLE] ハイブリッドワーク生産性指標の社内評価ガイド",
+    "snippet": "[SAMPLE CORPUS] 集中作業時間、共同作業の待ち時間、成果品質を組み合わせ、出社日数だけで生産性を判断しない評価方法をまとめたサンプル資料。",
+    "url": "sample://corpus/internal_kb/001",
+    "published_date": "2026-01-08",
+    "keywords": ["hybrid work", "remote work", "productivity", "knowledge workers", "ハイブリッドワーク", "リモートワーク", "生産性", "知識労働者"]
+  },
+  {
+    "source_id": "internal_kb",
+    "doc_id": "SAMPLE-INTERNAL-KB-002",
+    "title": "[SAMPLE] 生成AIエージェント導入パイロットの業務効果",
+    "snippet": "[SAMPLE CORPUS] 定型調査と文書下書きに生成AIエージェントを試行し、処理時間短縮とレビュー負荷、誤回答率を同時に測定した架空の社内事例。",
+    "url": "sample://corpus/internal_kb/002",
+    "published_date": "2026-02-03",
+    "keywords": ["generative AI agents", "workflow automation", "review workload", "生成AIエージェント", "業務自動化", "導入効果", "レビュー負荷"]
+  },
+  {
+    "source_id": "internal_kb",
+    "doc_id": "SAMPLE-INTERNAL-KB-003",
+    "title": "[SAMPLE] AIエージェント運用の承認境界と監査記録",
+    "snippet": "[SAMPLE CORPUS] 人間の承認が必要な処理、参照専用処理、監査ログの保持項目を分け、エージェント導入時のリスクを管理する手順例。",
+    "url": "sample://corpus/internal_kb/003",
+    "published_date": "2026-02-20",
+    "keywords": ["AI agent governance", "human oversight", "audit trail", "AIエージェント", "人間の監督", "承認", "監査記録", "リスク"]
+  },
+  {
+    "source_id": "internal_kb",
+    "doc_id": "SAMPLE-INTERNAL-KB-004",
+    "title": "[SAMPLE] 交代勤務者の睡眠確保と引継ぎ品質",
+    "snippet": "[SAMPLE CORPUS] 夜勤後の休息時間、連続勤務回数、引継ぎエラーの関係を追跡し、勤務表改善の判断材料を示すサンプル分析。",
+    "url": "sample://corpus/internal_kb/004",
+    "published_date": "2026-03-04",
+    "keywords": ["shift work", "sleep", "handover quality", "cognitive performance", "交代勤務", "夜勤", "睡眠", "認知パフォーマンス", "引継ぎ"]
+  },
+  {
+    "source_id": "internal_kb",
+    "doc_id": "SAMPLE-INTERNAL-KB-005",
+    "title": "[SAMPLE] 分散チームの会議負荷と集中時間",
+    "snippet": "[SAMPLE CORPUS] リモート会議の時間帯集約と非同期更新を試し、知識労働者の中断回数と集中作業時間の変化を整理した資料。",
+    "url": "sample://corpus/internal_kb/005",
+    "published_date": "2026-03-18",
+    "keywords": ["distributed teams", "meeting load", "focus time", "remote work", "分散チーム", "会議負荷", "集中時間", "リモートワーク"]
+  },
+  {
+    "source_id": "arxiv",
+    "doc_id": "SAMPLE-ARXIV-001",
+    "title": "[SAMPLE] Hybrid Work Scheduling and Knowledge-Worker Productivity",
+    "snippet": "[SAMPLE CORPUS] A synthetic study outline compares coordinated office days with flexible remote schedules using task completion, quality, and collaboration delay measures.",
+    "url": "sample://corpus/arxiv/001",
+    "published_date": "2026-01-15",
+    "keywords": ["hybrid work", "remote work", "productivity", "knowledge workers", "ハイブリッドワーク", "リモートワーク", "生産性", "知識労働者"]
+  },
+  {
+    "source_id": "arxiv",
+    "doc_id": "SAMPLE-ARXIV-002",
+    "title": "[SAMPLE] Measuring Generative AI Agent Assistance in Enterprise Workflows",
+    "snippet": "[SAMPLE CORPUS] A sample evaluation design measures cycle time, correction effort, and task quality when generative AI agents assist research and drafting workflows.",
+    "url": "sample://corpus/arxiv/002",
+    "published_date": "2026-02-11",
+    "keywords": ["generative AI agents", "enterprise workflows", "cycle time", "task quality", "生成AIエージェント", "企業業務", "導入効果", "品質"]
+  },
+  {
+    "source_id": "arxiv",
+    "doc_id": "SAMPLE-ARXIV-003",
+    "title": "[SAMPLE] Human Oversight Patterns for Tool-Using AI Agents",
+    "snippet": "[SAMPLE CORPUS] A conceptual benchmark contrasts approval gates, action allowlists, and post-hoc review for AI agents that use enterprise tools.",
+    "url": "sample://corpus/arxiv/003",
+    "published_date": "2026-02-26",
+    "keywords": ["AI agents", "human oversight", "approval gates", "tool use", "AIエージェント", "人間の監督", "承認ゲート", "安全性"]
+  },
+  {
+    "source_id": "arxiv",
+    "doc_id": "SAMPLE-ARXIV-004",
+    "title": "[SAMPLE] Shift Scheduling Under Circadian and Cognitive Constraints",
+    "snippet": "[SAMPLE CORPUS] A simulated scheduling method balances staffing coverage with sleep opportunity and predicted cognitive performance across rotating shifts.",
+    "url": "sample://corpus/arxiv/004",
+    "published_date": "2026-03-09",
+    "keywords": ["shift work", "sleep opportunity", "cognitive performance", "circadian", "交代勤務", "睡眠", "認知パフォーマンス", "概日リズム"]
+  },
+  {
+    "source_id": "arxiv",
+    "doc_id": "SAMPLE-ARXIV-005",
+    "title": "[SAMPLE] Cross-Source Evidence Synthesis for Workplace Decisions",
+    "snippet": "[SAMPLE CORPUS] A sample method links claims to document-level evidence while comparing internal reports, research summaries, and current operational reporting.",
+    "url": "sample://corpus/arxiv/005",
+    "published_date": "2026-03-22",
+    "keywords": ["evidence synthesis", "workplace decisions", "citations", "hybrid work", "証拠統合", "業務判断", "引用", "ハイブリッドワーク"]
+  },
+  {
+    "source_id": "pubmed",
+    "doc_id": "SAMPLE-PUBMED-001",
+    "title": "[SAMPLE] Sleep Duration and Cognitive Performance in Rotating Shift Work",
+    "snippet": "[SAMPLE CORPUS] A fictional observational summary examines sleep duration, reaction accuracy, and attention lapses before and after rotating night shifts.",
+    "url": "sample://corpus/pubmed/001",
+    "published_date": "2026-01-21",
+    "keywords": ["shift work", "sleep duration", "cognitive performance", "attention", "交代勤務", "夜勤", "睡眠時間", "認知パフォーマンス", "注意力"]
+  },
+  {
+    "source_id": "pubmed",
+    "doc_id": "SAMPLE-PUBMED-002",
+    "title": "[SAMPLE] Recovery Sleep After Consecutive Night Shifts",
+    "snippet": "[SAMPLE CORPUS] A sample intervention summary compares protected recovery sleep windows after consecutive night shifts and reports simulated alertness outcomes.",
+    "url": "sample://corpus/pubmed/002",
+    "published_date": "2026-02-06",
+    "keywords": ["night shifts", "recovery sleep", "alertness", "fatigue", "夜勤", "回復睡眠", "覚醒度", "疲労"]
+  },
+  {
+    "source_id": "pubmed",
+    "doc_id": "SAMPLE-PUBMED-003",
+    "title": "[SAMPLE] Remote Work, Commute Time, Sleep, and Well-Being",
+    "snippet": "[SAMPLE CORPUS] A synthetic cohort outline explores whether reduced commuting in remote and hybrid work changes sleep opportunity, well-being, and self-reported productivity.",
+    "url": "sample://corpus/pubmed/003",
+    "published_date": "2026-02-18",
+    "keywords": ["remote work", "hybrid work", "commute", "sleep", "well-being", "productivity", "リモートワーク", "ハイブリッドワーク", "通勤", "睡眠", "生産性"]
+  },
+  {
+    "source_id": "pubmed",
+    "doc_id": "SAMPLE-PUBMED-004",
+    "title": "[SAMPLE] Cognitive Load During Human Review of AI-Generated Work",
+    "snippet": "[SAMPLE CORPUS] A fictional experiment design measures vigilance, correction accuracy, and cognitive load when staff review outputs from generative AI agents.",
+    "url": "sample://corpus/pubmed/004",
+    "published_date": "2026-03-02",
+    "keywords": ["generative AI agents", "human review", "cognitive load", "vigilance", "生成AIエージェント", "人間レビュー", "認知負荷", "注意力"]
+  },
+  {
+    "source_id": "pubmed",
+    "doc_id": "SAMPLE-PUBMED-005",
+    "title": "[SAMPLE] Meeting Fragmentation and Mental Fatigue in Hybrid Teams",
+    "snippet": "[SAMPLE CORPUS] A sample workplace-health protocol relates fragmented video meetings to mental fatigue, recovery breaks, and perceived task performance.",
+    "url": "sample://corpus/pubmed/005",
+    "published_date": "2026-03-16",
+    "keywords": ["hybrid teams", "meeting fragmentation", "mental fatigue", "task performance", "ハイブリッドチーム", "会議", "精神疲労", "業務パフォーマンス"]
+  },
+  {
+    "source_id": "news",
+    "doc_id": "SAMPLE-NEWS-001",
+    "title": "[SAMPLE] 架空企業のハイブリッド勤務試行が示した生産性の測り方",
+    "snippet": "[SAMPLE CORPUS] 架空の業務組織が出社率ではなく成果品質、応答時間、従業員の集中時間でハイブリッドワークを評価したというサンプル記事。",
+    "url": "sample://corpus/news/001",
+    "published_date": "2026-01-29",
+    "keywords": ["hybrid work", "productivity metrics", "focus time", "ハイブリッドワーク", "生産性", "成果品質", "集中時間"]
+  },
+  {
+    "source_id": "news",
+    "doc_id": "SAMPLE-NEWS-002",
+    "title": "[SAMPLE] 生成AIエージェント導入で見えた時間短縮と再確認コスト",
+    "snippet": "[SAMPLE CORPUS] 架空の導入チームが調査作業の短縮と、出力検証や例外処理に必要な追加時間を併記したサンプル報道。",
+    "url": "sample://corpus/news/002",
+    "published_date": "2026-02-14",
+    "keywords": ["generative AI agents", "time savings", "verification cost", "生成AIエージェント", "導入効果", "時間短縮", "検証コスト"]
+  },
+  {
+    "source_id": "news",
+    "doc_id": "SAMPLE-NEWS-003",
+    "title": "[SAMPLE] AIエージェントの誤作動を抑える人間承認の実務",
+    "snippet": "[SAMPLE CORPUS] 架空の運用部門が外部送信とデータ更新に承認を設け、参照処理と分離した導入上の教訓を紹介するサンプル記事。",
+    "url": "sample://corpus/news/003",
+    "published_date": "2026-02-28",
+    "keywords": ["AI agent governance", "human approval", "operational risk", "AIエージェント", "人間承認", "運用リスク", "ガバナンス"]
+  },
+  {
+    "source_id": "news",
+    "doc_id": "SAMPLE-NEWS-004",
+    "title": "[SAMPLE] 夜勤表の再設計で睡眠時間と注意力を守る試み",
+    "snippet": "[SAMPLE CORPUS] 架空の事業所が連続夜勤を減らし、勤務間隔を延ばして、睡眠時間と作業時の注意力を追跡したサンプル記事。",
+    "url": "sample://corpus/news/004",
+    "published_date": "2026-03-12",
+    "keywords": ["shift work", "night shifts", "sleep", "attention", "交代勤務", "夜勤", "睡眠", "注意力", "勤務表"]
+  },
+  {
+    "source_id": "news",
+    "doc_id": "SAMPLE-NEWS-005",
+    "title": "[SAMPLE] リモート会議削減で知識労働者の集中時間を確保",
+    "snippet": "[SAMPLE CORPUS] 架空の分散組織が会議のない時間帯と非同期共有を導入し、中断回数と自己申告の生産性を比較したサンプル記事。",
+    "url": "sample://corpus/news/005",
+    "published_date": "2026-03-25",
+    "keywords": ["remote work", "meeting reduction", "knowledge workers", "productivity", "リモートワーク", "会議削減", "知識労働者", "生産性", "集中時間"]
+  }
+]

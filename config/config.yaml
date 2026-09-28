@@ -1,0 +1,50 @@
+# Runtime parameters - loaded by AgentRegistry and passed as Graph(config=...).
+
+max_retry: 3
+timeout_seconds: 30
+
+# Marketplace smoke-test corpus. Production should inject a connector-backed
+# ResearchService through config["research_service"], or replace this path with
+# an operationally governed real-data corpus.
+research_corpus_path: "config/research_corpus.sample.json"
+research_corpus_top_k: 3
+
+# ── LLM (synthesize_node) ────────────────────────────────────────────────
+# The standard seam is config["llm"]: a caller owning process wiring may
+# inject a framework BaseLLM (or this template's synthesize() protocol) and the
+# keys below are then unused. When nothing is injected, synthesize_node builds
+# the provider client per invocation from ctx.secrets.require("LLM_API_KEY").
+#
+# llm_model is intentionally unset — no model id is pinned in src/, and leaving
+# it blank means the provider client's own default applies. Set it here to pin
+# the model for a deployment (recommended: a wheel upgrade can otherwise move
+# the default model underneath the agent).
+llm_provider: anthropic
+# llm_model: ""
+# llm_temperature: 0.0
+# llm_max_tokens: 4000
+
+# HITL plan gate. The legacy manifest carried this under
+# configurable.hitl_enabled; keep that shape for Graph compatibility and also
+# declare the standard framework flags explicitly.
+memory_enabled: true
+hitl:
+  enabled: true
+  max_hitl: 8
+hitl_enabled: true
+
+configurable:
+  hitl_enabled: true
+  allowed_sources:
+    internal_kb:
+      type: index
+      tier: internal_kb
+    arxiv:
+      type: connector
+      tier: peer_reviewed
+    pubmed:
+      type: connector
+      tier: peer_reviewed
+    news:
+      type: connector
+      tier: news
